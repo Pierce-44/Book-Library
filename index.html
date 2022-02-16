@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sideBar">
+        <h1>Library</h1>
+        <div>
+            <form id="forms" action="">
+                <label for="bookTitle">Title</label>
+                <input type="text" id="bookTitle" name="title" required>
+            </form>
+            <form id="forms" action="">
+                <label for="bookAuthor">Author</label>
+                <input type="text" name="author" id="bookAuthor" required>
+            </form>
+            <form id="forms" action="">
+                <label for="bookPages">Number of Pages</label>
+                <input type="text" name="pages" id="bookPages" required>
+            </form>
+            <form id="forms" action="">
+                <label for="bookReadStatus">Read</label>
+                <input type="checkbox" name="readStatus" id="bookReadStatus">
+            </form>
+            <form id="formsubmit" action="">
+                <input type="button" value="Submit" id="btn">
+            </form>
+        </div>
+    </div>
+    <div class="libraryContainer" id="libCont">
+
+
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
